@@ -36,8 +36,27 @@ img {
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
-  /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+  .container {
+    max-width: 745px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  p {
+    font-size: 20px;
+  }
 }
+
+/* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 
 @media(min-width: 729px) {
   .container {
