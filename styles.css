@@ -40,5 +40,19 @@ img {
 }
 
 @media(min-width: 729px) {
+  .container {
+    max-width: 745px;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
 }
